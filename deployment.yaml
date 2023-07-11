@@ -15,7 +15,7 @@ spec:
         app: hello-world-flask
     spec:
       containers:
-      - image: ccr.ccs.tencentyun.com/app-public/hello-world-flask-amd:v1.0
+      - image: ccr.ccs.tencentyun.com/app-public/hello-world-flask-amd:latest
         name: hello-world-flask
         imagePullPolicy: IfNotPresent
         resources:
